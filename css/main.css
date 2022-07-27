@@ -1,6 +1,12 @@
 .mxwidth{
     max-width: 900px;
 }
+footer{
+    height: 300px;
+}
+.-mb-5{
+    margin-top: 5px;
+}
 
 @media screen and (max-width: 576px) {
     .carousel-item h1{
@@ -8,5 +14,11 @@
     }
     .carousel-item p{
         font-size: 50%;
+    }
+    .po-ri{
+        left: 25px !important;
+    }
+    .po-le{
+        left: 25px !important;
     }
 }
